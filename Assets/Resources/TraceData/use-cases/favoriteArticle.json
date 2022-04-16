@@ -1,0 +1,1216 @@
+{
+  "took" : 9,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 19,
+      "relation" : "eq"
+    },
+    "max_score" : 9.659123,
+    "hits" : [
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "BZWahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "a5c51db8a7eb613f"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "type" : "apm-server",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.424Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 170
+            },
+            "name" : "DefaultJwtService#getSubFromToken",
+            "id" : "36d8549b5c651b81",
+            "type" : "app"
+          },
+          "timestamp" : {
+            "us" : 1621427362424145
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "BpWahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "407e6da1c72238f1"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.424Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "timestamp" : {
+            "us" : 1621427362424429
+          },
+          "span" : {
+            "duration" : {
+              "us" : 58
+            },
+            "subtype" : "h2",
+            "name" : "SELECT FROM users",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "action" : "query",
+            "id" : "0c9cceb5aac876be",
+            "type" : "db",
+            "db" : {
+              "statement" : "select id, username, email, password, bio, image from users where id = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "B5WahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "a5c51db8a7eb613f"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.424Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 230
+            },
+            "name" : "MyBatisUserRepository#findById",
+            "id" : "407e6da1c72238f1",
+            "type" : "app"
+          },
+          "timestamp" : {
+            "us" : 1621427362424325
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "CJWahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "35ace35b1f893c19"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.424Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "timestamp" : {
+            "us" : 1621427362424967
+          },
+          "span" : {
+            "duration" : {
+              "us" : 157
+            },
+            "subtype" : "h2",
+            "name" : "SELECT FROM articles",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "action" : "query",
+            "id" : "2030da1ed8464285",
+            "type" : "db",
+            "db" : {
+              "statement" : "select\n        A.id articleId,\n        A.slug articleSlug,\n        A.title articleTitle,\n        A.description articleDescription,\n        A.body articleBody,\n        A.user_id articleUserId,\n        A.created_at articleCreatedAt,\n        A.updated_at articleUpdatedAt,\n        T.id tagId,\n        T.name tagName\n        from articles A\n        left join article_tags AT on A.id = AT.article_id\n        left join tags T on T.id = AT.tag_id\n     \n        where A.slug = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "CZWahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "35ace35b1f893c19"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "type" : "apm-server",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.425Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "timestamp" : {
+            "us" : 1621427362425155
+          },
+          "span" : {
+            "duration" : {
+              "us" : 10
+            },
+            "name" : "DateTimeHandler#getResult",
+            "id" : "7f0b7920e79f2acb",
+            "type" : "app"
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "CpWahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "35ace35b1f893c19"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.425Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "timestamp" : {
+            "us" : 1621427362425166
+          },
+          "span" : {
+            "duration" : {
+              "us" : 2
+            },
+            "name" : "DateTimeHandler#getResult",
+            "id" : "5815a9bb8ffd05f0",
+            "type" : "app"
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "C5WahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "3ffa23bef2838dbc"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "type" : "apm-server",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.424Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 321
+            },
+            "name" : "MyBatisArticleRepository#findBySlug",
+            "id" : "35ace35b1f893c19",
+            "type" : "app"
+          },
+          "timestamp" : {
+            "us" : 1621427362424870
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "DJWahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "b998e5e698d92533"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.425Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 60
+            },
+            "subtype" : "h2",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "name" : "SELECT FROM article_favorites",
+            "action" : "query",
+            "id" : "b6a0a99e3c5f418e",
+            "type" : "db",
+            "db" : {
+              "statement" : "select\n          AF.article_id articleFavoriteArticleId,\n          AF.user_id articleFavoriteUserId\n          from article_favorites AF\n          where AF.article_id = ? and AF.user_id = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          },
+          "timestamp" : {
+            "us" : 1621427362425321
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "DZWahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "b998e5e698d92533"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.425Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 85
+            },
+            "subtype" : "h2",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "name" : "INSERT INTO article_favorites",
+            "action" : "query",
+            "id" : "b52759f75b1db640",
+            "type" : "db",
+            "db" : {
+              "statement" : "insert into article_favorites (article_id, user_id) values (?, ?)",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          },
+          "timestamp" : {
+            "us" : 1621427362425462
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "DpWahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "3ffa23bef2838dbc"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.425Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 347
+            },
+            "name" : "MyBatisArticleFavoriteRepository#save",
+            "id" : "b998e5e698d92533",
+            "type" : "app"
+          },
+          "timestamp" : {
+            "us" : 1621427362425208
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "D5WahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "db94def02e689f8c"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.425Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "timestamp" : {
+            "us" : 1621427362425784
+          },
+          "span" : {
+            "duration" : {
+              "us" : 122
+            },
+            "subtype" : "h2",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "name" : "SELECT",
+            "action" : "query",
+            "id" : "af78b7e615c11371",
+            "type" : "db",
+            "db" : {
+              "statement" : "select\n        A.id articleId,\n        A.slug articleSlug,\n        A.title articleTitle,\n        A.description articleDescription,\n        A.body articleBody,\n        A.created_at articleCreatedAt,\n        A.updated_at articleUpdatedAt,\n        T.name tagName,\n         \n        U.id userId,\n        U.username userUsername,\n        U.bio userBio,\n        U.image userImage\n     \n        from\n        articles A\n        left join article_tags AT on A.id = AT.article_id\n        left join tags T on T.id = AT.tag_id\n        left join users U on U.id = A.user_id\n     \n        where A.slug = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "EJWahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "db94def02e689f8c"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "type" : "apm-server",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.425Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "timestamp" : {
+            "us" : 1621427362425962
+          },
+          "span" : {
+            "duration" : {
+              "us" : 8
+            },
+            "name" : "DateTimeHandler#getResult",
+            "id" : "f55c4a05c74ce941",
+            "type" : "app"
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "EZWahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "db94def02e689f8c"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.425Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "timestamp" : {
+            "us" : 1621427362425972
+          },
+          "span" : {
+            "duration" : {
+              "us" : 1
+            },
+            "name" : "DateTimeHandler#getResult",
+            "id" : "1e9e47374cbb7b8d",
+            "type" : "app"
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "EpWahHkBRb8Bn1Y_JnGE",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "db94def02e689f8c"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "type" : "apm-server",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.426Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "timestamp" : {
+            "us" : 1621427362426086
+          },
+          "span" : {
+            "duration" : {
+              "us" : 42
+            },
+            "subtype" : "h2",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "name" : "SELECT FROM article_favorites",
+            "action" : "query",
+            "id" : "2102138f46177d61",
+            "type" : "db",
+            "db" : {
+              "statement" : "select count(1) from article_favorites where user_id = ? and article_id = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "FJWahHkBRb8Bn1Y_J3Ep",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "db94def02e689f8c"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.426Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 25
+            },
+            "subtype" : "h2",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "name" : "SELECT FROM article_favorites",
+            "action" : "query",
+            "id" : "0d2a52399b634a1f",
+            "type" : "db",
+            "db" : {
+              "statement" : "select count(1) from article_favorites where article_id = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          },
+          "timestamp" : {
+            "us" : 1621427362426167
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "FZWahHkBRb8Bn1Y_J3Ep",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "db94def02e689f8c"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.426Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 47
+            },
+            "subtype" : "h2",
+            "name" : "SELECT FROM follows",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "action" : "query",
+            "id" : "744702c029774828",
+            "type" : "db",
+            "db" : {
+              "statement" : "select count(1) from follows where user_id = ? and follow_id = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          },
+          "timestamp" : {
+            "us" : 1621427362426255
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "FpWahHkBRb8Bn1Y_J3Ep",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "3ffa23bef2838dbc"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.425Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "timestamp" : {
+            "us" : 1621427362425558
+          },
+          "span" : {
+            "duration" : {
+              "us" : 750
+            },
+            "name" : "ArticleQueryService#findBySlug",
+            "id" : "db94def02e689f8c",
+            "type" : "app"
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "F5WahHkBRb8Bn1Y_J3Ep",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "a5c51db8a7eb613f"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.424Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "timestamp" : {
+            "us" : 1621427362424860
+          },
+          "span" : {
+            "duration" : {
+              "us" : 1456
+            },
+            "name" : "ArticleFavoriteApi#favoriteArticle",
+            "id" : "3ffa23bef2838dbc",
+            "type" : "app"
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "GJWahHkBRb8Bn1Y_J3Ep",
+        "_score" : 9.659123,
+        "_source" : {
+          "parent" : {
+            "id" : "5935223b775087ed"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "dfd644a7fd445e145baaf082be422b21"
+          },
+          "@timestamp" : "2021-05-19T12:29:22.424Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "5935223b775087ed"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 2506
+            },
+            "name" : "JwtTokenFilter#doFilterInternal",
+            "id" : "a5c51db8a7eb613f",
+            "type" : "app"
+          },
+          "timestamp" : {
+            "us" : 1621427362424118
+          }
+        }
+      }
+    ]
+  }
+}

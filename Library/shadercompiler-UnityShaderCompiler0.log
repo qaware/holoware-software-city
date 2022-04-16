@@ -1,0 +1,449 @@
+Base path: '/Applications/Unity/Hub/Editor/2019.4.36f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.4.36f1/Unity.app/Contents/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: preprocess
+  insize=7178 outsize=769 ok=1
+Cmd: preprocessCompute
+  insize=1252 outsize=1258 ok=1
+Cmd: preprocess
+  insize=1380 outsize=265 ok=1
+Cmd: preprocessCompute
+  insize=16415 outsize=16425 ok=1
+Cmd: preprocess
+  insize=10334 outsize=821 ok=1
+Cmd: preprocessCompute
+  insize=19441 outsize=19445 ok=1
+Cmd: preprocessCompute
+  insize=6577 outsize=6583 ok=1
+Cmd: preprocessCompute
+  insize=823 outsize=824 ok=1
+Cmd: preprocess
+  insize=1970 outsize=415 ok=1
+Cmd: preprocessCompute
+  insize=3800 outsize=3802 ok=1
+Cmd: preprocess
+  insize=62841 outsize=29019 ok=1
+Cmd: preprocess
+  insize=10011 outsize=320 ok=1
+Cmd: preprocess
+  insize=2976 outsize=325 ok=1
+Cmd: preprocess
+  insize=3962 outsize=719 ok=1
+Cmd: preprocess
+  insize=2201 outsize=319 ok=1
+Cmd: preprocessCompute
+  insize=29556 outsize=29564 ok=1
+Cmd: preprocessCompute
+  insize=4407 outsize=4415 ok=1
+Cmd: preprocessCompute
+  insize=8927 outsize=8931 ok=1
+Cmd: preprocess
+  insize=5102 outsize=783 ok=1
+Cmd: preprocess
+  insize=3721 outsize=299 ok=1
+Cmd: preprocess
+  insize=2718 outsize=287 ok=1
+Cmd: preprocessCompute
+  insize=5696 outsize=5700 ok=1
+Cmd: preprocess
+  insize=6599 outsize=1299 ok=1
+Cmd: preprocessCompute
+  insize=2476 outsize=2480 ok=1
+Cmd: preprocess
+  insize=1701 outsize=360 ok=1
+Cmd: preprocess
+  insize=2311 outsize=446 ok=1
+Cmd: preprocessCompute
+  insize=2148 outsize=2150 ok=1
+Cmd: preprocessCompute
+  insize=40023 outsize=40027 ok=1
+Cmd: preprocess
+  insize=6447 outsize=843 ok=1
+Cmd: preprocessCompute
+  insize=552 outsize=554 ok=1
+Cmd: preprocessCompute
+  insize=17123 outsize=17133 ok=1
+Cmd: preprocess
+  insize=6907 outsize=278 ok=1
+Cmd: preprocessCompute
+  insize=3722 outsize=3726 ok=1
+Cmd: preprocess
+  insize=3868 outsize=843 ok=1
+Cmd: preprocessCompute
+  insize=5729 outsize=5735 ok=1
+Cmd: preprocessCompute
+  insize=1320 outsize=1326 ok=1
+Cmd: preprocess
+  insize=1391 outsize=290 ok=1
+Cmd: preprocessCompute
+  insize=3461 outsize=3465 ok=1
+Cmd: preprocess
+  insize=18065 outsize=2591 ok=1
+Cmd: preprocess
+  insize=5893 outsize=281 ok=1
+Cmd: preprocess
+  insize=2355 outsize=636 ok=1
+Cmd: preprocessCompute
+  insize=801 outsize=803 ok=1
+Cmd: preprocess
+  insize=2781 outsize=553 ok=1
+Cmd: preprocessCompute
+  insize=3402 outsize=3414 ok=1
+Cmd: preprocess
+  insize=813 outsize=300 ok=1
+Cmd: preprocessCompute
+  insize=2552 outsize=2558 ok=1
+Cmd: preprocessCompute
+  insize=4520 outsize=4524 ok=1
+Cmd: preprocessCompute
+  insize=1838 outsize=1842 ok=1
+Cmd: preprocessCompute
+  insize=14438 outsize=14460 ok=1
+Cmd: preprocessCompute
+  insize=3615 outsize=3627 ok=1
+Cmd: preprocessCompute
+  insize=419 outsize=421 ok=1
+Cmd: preprocessCompute
+  insize=4895 outsize=4897 ok=1
+Cmd: preprocess
+  insize=3067 outsize=1036 ok=1
+Cmd: preprocessCompute
+  insize=2801 outsize=2805 ok=1
+Cmd: preprocessCompute
+  insize=859 outsize=865 ok=1
+Cmd: preprocessCompute
+  insize=13292 outsize=13302 ok=1
+Cmd: preprocessCompute
+  insize=39286 outsize=39290 ok=1
+Cmd: preprocessCompute
+  insize=8335 outsize=8345 ok=1
+Cmd: preprocess
+  insize=8556 outsize=540 ok=1
+Cmd: preprocess
+  insize=29308 outsize=11581 ok=1
+Cmd: preprocessCompute
+  insize=3145 outsize=3149 ok=1
+Cmd: preprocessCompute
+  insize=1416 outsize=1418 ok=1
+Cmd: preprocess
+  insize=3142 outsize=327 ok=1
+Cmd: preprocess
+  insize=2087 outsize=353 ok=1
+Cmd: preprocess
+  insize=25430 outsize=13532 ok=1
+Cmd: preprocessCompute
+  insize=4508 outsize=4530 ok=1
+Cmd: preprocessCompute
+  insize=20491 outsize=20495 ok=1
+Cmd: preprocessCompute
+  insize=2622 outsize=2628 ok=1
+Cmd: preprocessCompute
+  insize=1677 outsize=1681 ok=1
+Cmd: preprocess
+  insize=61279 outsize=21963 ok=1
+Cmd: preprocessCompute
+  insize=10989 outsize=11001 ok=1
+Cmd: preprocessCompute
+  insize=3598 outsize=3602 ok=1
+Cmd: preprocess
+  insize=4009 outsize=868 ok=1
+Cmd: preprocess
+  insize=1508 outsize=295 ok=1
+Cmd: preprocess
+  insize=2393 outsize=302 ok=1
+Cmd: preprocessCompute
+  insize=2362 outsize=2366 ok=1
+Cmd: preprocessCompute
+  insize=3062 outsize=3066 ok=1
+Cmd: preprocess
+  insize=1698 outsize=1069 ok=1
+Cmd: preprocessCompute
+  insize=20776 outsize=20788 ok=1
+Cmd: preprocess
+  insize=3693 outsize=367 ok=1
+Cmd: preprocess
+  insize=7132 outsize=286 ok=1
+Cmd: preprocess
+  insize=2888 outsize=504 ok=1
+Cmd: preprocess
+  insize=1082 outsize=496 ok=1
+Cmd: preprocessCompute
+  insize=3600 outsize=3604 ok=1
+Cmd: preprocessCompute
+  insize=8882 outsize=8888 ok=1
+Cmd: preprocessCompute
+  insize=8847 outsize=8851 ok=1
+Cmd: preprocessCompute
+  insize=9195 outsize=9199 ok=1
+Cmd: preprocess
+  insize=10109 outsize=3015 ok=1
+Cmd: preprocessCompute
+  insize=7361 outsize=7363 ok=1
+Cmd: preprocess
+  insize=3243 outsize=295 ok=1
+Cmd: preprocessCompute
+  insize=5475 outsize=5487 ok=1
+Cmd: preprocess
+  insize=15417 outsize=339 ok=1
+Cmd: preprocessCompute
+  insize=1909 outsize=1913 ok=1
+Cmd: preprocess
+  insize=8285 outsize=340 ok=1
+Cmd: preprocessCompute
+  insize=21827 outsize=21845 ok=1
+Cmd: preprocess
+  insize=2625 outsize=567 ok=1
+Cmd: preprocess
+  insize=3656 outsize=621 ok=1
+Cmd: preprocess
+  insize=1021 outsize=359 ok=1
+Cmd: preprocessCompute
+  insize=5437 outsize=5443 ok=1
+Cmd: preprocess
+  insize=3257 outsize=363 ok=1
+Cmd: preprocessCompute
+  insize=6022 outsize=6026 ok=1
+Cmd: preprocessCompute
+  insize=3001 outsize=3007 ok=1
+Cmd: preprocess
+  insize=1795 outsize=457 ok=1
+Cmd: preprocessCompute
+  insize=3901 outsize=3905 ok=1
+Cmd: preprocess
+  insize=2051 outsize=290 ok=1
+Cmd: preprocess
+  insize=19623 outsize=319 ok=1
+Cmd: preprocessCompute
+  insize=4140 outsize=4144 ok=1
+Cmd: preprocess
+  insize=3823 outsize=312 ok=1
+Cmd: preprocessCompute
+  insize=14405 outsize=14415 ok=1
+Cmd: preprocess
+  insize=1709 outsize=249 ok=1
+Cmd: preprocessCompute
+  insize=647 outsize=651 ok=1
+Cmd: preprocess
+  insize=1283 outsize=168 ok=1
+Cmd: preprocess
+  insize=2186 outsize=493 ok=1
+Cmd: preprocessCompute
+  insize=8363 outsize=8369 ok=1
+Cmd: preprocessCompute
+  insize=6348 outsize=6356 ok=1
+Cmd: preprocess
+  insize=8933 outsize=4989 ok=1
+Cmd: preprocessCompute
+  insize=700 outsize=704 ok=1
+Cmd: preprocessCompute
+  insize=11856 outsize=11858 ok=1
+Cmd: preprocess
+  insize=4230 outsize=365 ok=1
+Cmd: preprocess
+  insize=7048 outsize=266 ok=1
+Cmd: preprocessCompute
+  insize=6333 outsize=6349 ok=1
+Cmd: preprocessCompute
+  insize=1595 outsize=1599 ok=1
+Cmd: preprocess
+  insize=3537 outsize=381 ok=1
+Cmd: preprocess
+  insize=1789 outsize=299 ok=1
+Cmd: preprocess
+  insize=1053 outsize=175 ok=1
+Cmd: preprocess
+  insize=64843 outsize=29771 ok=1
+Cmd: preprocessCompute
+  insize=9221 outsize=9233 ok=1
+Cmd: preprocess
+  insize=4218 outsize=818 ok=1
+Cmd: preprocessCompute
+  insize=26393 outsize=26415 ok=1
+Cmd: preprocessCompute
+  insize=10754 outsize=10818 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(27): #error "Undefined punctual shadow filter algorithm"
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(29): #error "Undefined directional shadow filter algorithm"
+  api=14 insize=10818 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(27): #error "Undefined punctual shadow filter algorithm"
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(29): #error "Undefined directional shadow filter algorithm"
+  api=14 insize=10818 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(27): #error "Undefined punctual shadow filter algorithm"
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(29): #error "Undefined directional shadow filter algorithm"
+  api=14 insize=10818 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(27): #error "Undefined punctual shadow filter algorithm"
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(29): #error "Undefined directional shadow filter algorithm"
+  api=14 insize=10818 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(27): #error "Undefined punctual shadow filter algorithm"
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(29): #error "Undefined directional shadow filter algorithm"
+  api=14 insize=10818 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(27): #error "Undefined punctual shadow filter algorithm"
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(29): #error "Undefined directional shadow filter algorithm"
+  api=14 insize=10818 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(27): #error "Undefined punctual shadow filter algorithm"
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(29): #error "Undefined directional shadow filter algorithm"
+  api=14 insize=10818 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(27): #error "Undefined punctual shadow filter algorithm"
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(29): #error "Undefined directional shadow filter algorithm"
+  api=14 insize=10818 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(27): #error "Undefined punctual shadow filter algorithm"
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(29): #error "Undefined directional shadow filter algorithm"
+  api=14 insize=10818 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(27): #error "Undefined punctual shadow filter algorithm"
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(29): #error "Undefined directional shadow filter algorithm"
+  api=14 insize=10818 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(27): #error "Undefined punctual shadow filter algorithm"
+  error: 2 plat 14 at Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/Shadow/HDShadowAlgorithms.hlsl(29): #error "Undefined directional shadow filter algorithm"
+  api=14 insize=10818 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=9515 outsize=9527 ok=1
+Cmd: preprocess
+  insize=2660 outsize=458 ok=1
+Cmd: preprocessCompute
+  insize=1637 outsize=1641 ok=1
+Cmd: preprocess
+  insize=5618 outsize=294 ok=1
+Cmd: preprocess
+  insize=14228 outsize=1001 ok=1
+Cmd: preprocess
+  insize=12112 outsize=6703 ok=1
+Cmd: preprocessCompute
+  insize=3618 outsize=3626 ok=1
+Cmd: preprocessCompute
+  insize=5736 outsize=5744 ok=1
+Cmd: preprocessCompute
+  insize=3633 outsize=3637 ok=1
+Cmd: preprocessCompute
+  insize=3691 outsize=3695 ok=1
+Cmd: preprocessCompute
+  insize=4779 outsize=4781 ok=1
+Cmd: preprocess
+  insize=949 outsize=218 ok=1
+Cmd: preprocess
+  insize=2414 outsize=2035 ok=1
+Cmd: preprocess
+  insize=3389 outsize=888 ok=1
+Cmd: preprocess
+  insize=1767 outsize=455 ok=1
+Cmd: preprocessCompute
+  insize=33284 outsize=33306 ok=1
+Cmd: preprocessCompute
+  insize=2603 outsize=2609 ok=1
+Cmd: preprocessCompute
+  insize=3879 outsize=3883 ok=1
+Cmd: preprocess
+  insize=13541 outsize=7249 ok=1
+Cmd: preprocessCompute
+  insize=1145 outsize=1149 ok=1
+Cmd: preprocess
+  insize=408 outsize=408 ok=1
+Cmd: preprocess
+  insize=6436 outsize=2703 ok=1
+Cmd: preprocess
+  insize=12357 outsize=1186 ok=1
+Cmd: preprocessCompute
+  insize=11906 outsize=11912 ok=1
+Cmd: preprocess
+  insize=4049 outsize=682 ok=1
+Cmd: preprocessCompute
+  insize=1891 outsize=1895 ok=1
+Cmd: preprocessCompute
+  insize=6291 outsize=6295 ok=1
+Cmd: preprocessCompute
+  insize=2325 outsize=2329 ok=1
+Cmd: preprocess
+  insize=1358 outsize=373 ok=1
+Cmd: preprocessCompute
+  insize=3611 outsize=3617 ok=1
+Cmd: preprocess
+  insize=4056 outsize=819 ok=1
+Cmd: preprocessCompute
+  insize=2870 outsize=2872 ok=1
+Cmd: preprocessCompute
+  insize=6129 outsize=6133 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 14 at (138): #error 
+  api=14 insize=6133 outsize=0 ok=0
+Cmd: preprocess
+  insize=4282 outsize=1450 ok=1
+Cmd: preprocess
+  insize=32680 outsize=876 ok=1
+Cmd: preprocessCompute
+  insize=476 outsize=480 ok=1
+Cmd: preprocessCompute
+  insize=13581 outsize=13585 ok=1
+Cmd: preprocess
+  insize=2685 outsize=1157 ok=1
+Cmd: preprocessCompute
+  insize=11315 outsize=11319 ok=1
+Cmd: preprocessCompute
+  insize=3248 outsize=3252 ok=1
+Cmd: preprocessCompute
+  insize=6865 outsize=6871 ok=1
+Cmd: preprocessCompute
+  insize=4757 outsize=4765 ok=1
+Cmd: preprocess
+  insize=2053 outsize=313 ok=1
+Cmd: preprocessCompute
+  insize=12310 outsize=12314 ok=1
+Cmd: preprocessCompute
+  insize=6972 outsize=6976 ok=1
+Cmd: preprocess
+  insize=59210 outsize=21299 ok=1
+Cmd: preprocess
+  insize=7329 outsize=815 ok=1
+Cmd: preprocessCompute
+  insize=10112 outsize=10120 ok=1
+Cmd: preprocess
+  insize=4284 outsize=948 ok=1
+Cmd: preprocessCompute
+  insize=5450 outsize=5454 ok=1
+Cmd: preprocess
+  insize=3364 outsize=573 ok=1
+Cmd: preprocess
+  insize=1685 outsize=682 ok=1
+Cmd: preprocessCompute
+  insize=10317 outsize=10327 ok=1
+Cmd: preprocess
+  insize=5373 outsize=1228 ok=1
+Cmd: preprocess
+  insize=18157 outsize=1422 ok=1
+Cmd: preprocess
+  insize=3267 outsize=386 ok=1
+Cmd: preprocess
+  insize=2381 outsize=289 ok=1
+Cmd: preprocess
+  insize=1279 outsize=476 ok=1
+Cmd: preprocessCompute
+  insize=495 outsize=497 ok=1
+Cmd: preprocessCompute
+  insize=1442 outsize=1444 ok=1
+Cmd: preprocessCompute
+  insize=11050 outsize=11058 ok=1
+Cmd: preprocess
+  insize=3377 outsize=295 ok=1
+Cmd: preprocess
+  insize=1825 outsize=313 ok=1
+Cmd: preprocessCompute
+  insize=4714 outsize=4718 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=7077 outsize=7876 kw=UNITY_PASS_SHADOWCASTER INSTANCING_ON _NORMALMAP_TANGENT_SPACE _MATERIAL_FEATURE_CLEAR_COAT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=7077 outsize=235 kw=UNITY_PASS_SHADOWCASTER INSTANCING_ON _NORMALMAP_TANGENT_SPACE _MATERIAL_FEATURE_CLEAR_COAT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=7077 outsize=7455 kw=UNITY_PASS_SHADOWCASTER _SURFACE_TYPE_TRANSPARENT _NORMALMAP_TANGENT_SPACE _ENABLE_FOG_ON_TRANSPARENT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=7077 outsize=235 kw=UNITY_PASS_SHADOWCASTER _SURFACE_TYPE_TRANSPARENT _NORMALMAP_TANGENT_SPACE _ENABLE_FOG_ON_TRANSPARENT pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=7077 outsize=7455 kw=UNITY_PASS_SHADOWCASTER _NORMALMAP_TANGENT_SPACE _NORMALMAP _MASKMAP pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=7077 outsize=235 kw=UNITY_PASS_SHADOWCASTER _NORMALMAP_TANGENT_SPACE _NORMALMAP _MASKMAP pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1

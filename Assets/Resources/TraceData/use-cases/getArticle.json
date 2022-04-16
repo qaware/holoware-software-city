@@ -1,0 +1,1326 @@
+{
+  "took" : 12,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 12,
+      "relation" : "eq"
+    },
+    "max_score" : 10.103808,
+    "hits" : [
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "VpWahHkBRb8Bn1Y_8oER",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "eb191a5653018c8a"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.644Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "timestamp" : {
+            "us" : 1621427413644924
+          },
+          "span" : {
+            "duration" : {
+              "us" : 688
+            },
+            "subtype" : "h2",
+            "name" : "SELECT FROM article_favorites",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "action" : "query",
+            "id" : "8583e850acae89fc",
+            "type" : "db",
+            "db" : {
+              "statement" : "select count(1) from article_favorites where user_id = ? and article_id = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "V5WahHkBRb8Bn1Y_8oER",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "eb191a5653018c8a"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.645Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 51
+            },
+            "subtype" : "h2",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "name" : "SELECT FROM article_favorites",
+            "action" : "query",
+            "id" : "6c1905124d0fc41a",
+            "type" : "db",
+            "db" : {
+              "statement" : "select count(1) from article_favorites where article_id = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          },
+          "timestamp" : {
+            "us" : 1621427413645695
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "W5WahHkBRb8Bn1Y_8oER",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "eb191a5653018c8a"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.645Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "timestamp" : {
+            "us" : 1621427413645816
+          },
+          "span" : {
+            "duration" : {
+              "us" : 669
+            },
+            "subtype" : "h2",
+            "name" : "SELECT FROM follows",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "action" : "query",
+            "id" : "8658993489002399",
+            "type" : "db",
+            "db" : {
+              "statement" : "select count(1) from follows where user_id = ? and follow_id = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "XJWahHkBRb8Bn1Y_8oER",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "f97d8994f43480a9"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.644Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "timestamp" : {
+            "us" : 1621427413644056
+          },
+          "span" : {
+            "duration" : {
+              "us" : 3231
+            },
+            "name" : "ArticleQueryService#findBySlug",
+            "id" : "eb191a5653018c8a",
+            "type" : "app"
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "XZWahHkBRb8Bn1Y_8oER",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "94ed154f1ac198fd"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.644Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 3312
+            },
+            "name" : "ArticleApi#article",
+            "id" : "f97d8994f43480a9",
+            "type" : "app"
+          },
+          "timestamp" : {
+            "us" : 1621427413644044
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "Y5WahHkBRb8Bn1Y_8oER",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "94ed154f1ac198fd"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.643Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "timestamp" : {
+            "us" : 1621427413643146
+          },
+          "span" : {
+            "duration" : {
+              "us" : 216
+            },
+            "name" : "DefaultJwtService#getSubFromToken",
+            "id" : "77df135411d5d5e6",
+            "type" : "app"
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "ZJWahHkBRb8Bn1Y_8oER",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "ae474d64b1118411"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.643Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 79
+            },
+            "subtype" : "h2",
+            "name" : "SELECT FROM users",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "action" : "query",
+            "id" : "58ed1d3faa240935",
+            "type" : "db",
+            "db" : {
+              "statement" : "select id, username, email, password, bio, image from users where id = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          },
+          "timestamp" : {
+            "us" : 1621427413643493
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "ZZWahHkBRb8Bn1Y_8oER",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "94ed154f1ac198fd"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.643Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 248
+            },
+            "name" : "MyBatisUserRepository#findById",
+            "id" : "ae474d64b1118411",
+            "type" : "app"
+          },
+          "timestamp" : {
+            "us" : 1621427413643380
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "ZpWahHkBRb8Bn1Y_8oER",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "eb191a5653018c8a"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "destination" : {
+            "address" : "localhost"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.644Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 232
+            },
+            "subtype" : "h2",
+            "name" : "SELECT",
+            "destination" : {
+              "service" : {
+                "resource" : "h2",
+                "name" : "h2",
+                "type" : "db"
+              }
+            },
+            "action" : "query",
+            "id" : "d12ac61c93492730",
+            "type" : "db",
+            "db" : {
+              "statement" : "select\n        A.id articleId,\n        A.slug articleSlug,\n        A.title articleTitle,\n        A.description articleDescription,\n        A.body articleBody,\n        A.created_at articleCreatedAt,\n        A.updated_at articleUpdatedAt,\n        T.name tagName,\n         \n        U.id userId,\n        U.username userUsername,\n        U.bio userBio,\n        U.image userImage\n     \n        from\n        articles A\n        left join article_tags AT on A.id = AT.article_id\n        left join tags T on T.id = AT.tag_id\n        left join users U on U.id = A.user_id\n     \n        where A.slug = ?",
+              "type" : "sql",
+              "user" : {
+                "name" : "SA"
+              }
+            }
+          },
+          "timestamp" : {
+            "us" : 1621427413644409
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "Z5WahHkBRb8Bn1Y_8oER",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "eb191a5653018c8a"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.644Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "timestamp" : {
+            "us" : 1621427413644716
+          },
+          "span" : {
+            "duration" : {
+              "us" : 13
+            },
+            "name" : "DateTimeHandler#getResult",
+            "id" : "523d77a670e4497d",
+            "type" : "app"
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "aJWahHkBRb8Bn1Y_8oER",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "eb191a5653018c8a"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "type" : "apm-server",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.644Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "span" : {
+            "duration" : {
+              "us" : 2
+            },
+            "name" : "DateTimeHandler#getResult",
+            "id" : "d231bffc9a8514d4",
+            "type" : "app"
+          },
+          "timestamp" : {
+            "us" : 1621427413644741
+          }
+        }
+      },
+      {
+        "_index" : "apm-7.10.1-span-000004",
+        "_type" : "_doc",
+        "_id" : "qJWahHkBRb8Bn1Y_8oFS",
+        "_score" : 10.103808,
+        "_source" : {
+          "parent" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "agent" : {
+            "name" : "java",
+            "ephemeral_id" : "aded6bdd-224f-487c-898c-96bae2d57c8e",
+            "version" : "1.19.0"
+          },
+          "processor" : {
+            "name" : "transaction",
+            "event" : "span"
+          },
+          "observer" : {
+            "hostname" : "a70e9029dd02",
+            "id" : "097f177b-b75f-41b9-acc8-080cfe43e127",
+            "ephemeral_id" : "7ecd70c7-37c9-418f-9c57-cd351c54447e",
+            "type" : "apm-server",
+            "version" : "7.10.1",
+            "version_major" : 7
+          },
+          "trace" : {
+            "id" : "9b4c2b9678fb60bf8fbbe1cd2a1191bc"
+          },
+          "@timestamp" : "2021-05-19T12:30:13.643Z",
+          "ecs" : {
+            "version" : "1.6.0"
+          },
+          "service" : {
+            "name" : "realworld-example"
+          },
+          "event" : {
+            "outcome" : "unknown"
+          },
+          "transaction" : {
+            "id" : "59070ffe2c0488f8"
+          },
+          "timestamp" : {
+            "us" : 1621427413643131
+          },
+          "span" : {
+            "duration" : {
+              "us" : 5514
+            },
+            "stacktrace" : [
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "JwtTokenFilter.java",
+                "classname" : "io.spring.userservice.authorization.JwtTokenFilter",
+                "line" : {
+                  "number" : 50
+                },
+                "module" : "io.spring.userservice.authorization",
+                "function" : "doFilterInternal"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "OncePerRequestFilter.java",
+                "classname" : "org.springframework.web.filter.OncePerRequestFilter",
+                "line" : {
+                  "number" : 119
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "FilterChainProxy.java",
+                "classname" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+                "line" : {
+                  "number" : 334
+                },
+                "module" : "org.springframework.security.web",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "LogoutFilter.java",
+                "classname" : "org.springframework.security.web.authentication.logout.LogoutFilter",
+                "line" : {
+                  "number" : 116
+                },
+                "module" : "org.springframework.security.web.authentication.logout",
+                "function" : "doFilter"
+              },
+              {
+                "exclude_from_grouping" : false,
+                "library_frame" : false,
+                "filename" : "FilterChainProxy.java",
+                "classname" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+                "line" : {
+                  "number" : 334
+                },
+                "module" : "org.springframework.security.web",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "CorsFilter.java",
+                "classname" : "org.springframework.web.filter.CorsFilter",
+                "line" : {
+                  "number" : 92
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "doFilterInternal"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "OncePerRequestFilter.java",
+                "classname" : "org.springframework.web.filter.OncePerRequestFilter",
+                "line" : {
+                  "number" : 119
+                },
+                "function" : "doFilter",
+                "module" : "org.springframework.web.filter"
+              },
+              {
+                "exclude_from_grouping" : false,
+                "library_frame" : false,
+                "filename" : "FilterChainProxy.java",
+                "classname" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+                "line" : {
+                  "number" : 334
+                },
+                "module" : "org.springframework.security.web",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "HeaderWriterFilter.java",
+                "classname" : "org.springframework.security.web.header.HeaderWriterFilter",
+                "line" : {
+                  "number" : 92
+                },
+                "function" : "doHeadersAfter",
+                "module" : "org.springframework.security.web.header"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "HeaderWriterFilter.java",
+                "classname" : "org.springframework.security.web.header.HeaderWriterFilter",
+                "line" : {
+                  "number" : 77
+                },
+                "module" : "org.springframework.security.web.header",
+                "function" : "doFilterInternal"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "OncePerRequestFilter.java",
+                "classname" : "org.springframework.web.filter.OncePerRequestFilter",
+                "line" : {
+                  "number" : 119
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "FilterChainProxy.java",
+                "classname" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+                "line" : {
+                  "number" : 334
+                },
+                "module" : "org.springframework.security.web",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "SecurityContextPersistenceFilter.java",
+                "classname" : "org.springframework.security.web.context.SecurityContextPersistenceFilter",
+                "line" : {
+                  "number" : 105
+                },
+                "module" : "org.springframework.security.web.context",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "FilterChainProxy.java",
+                "classname" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+                "line" : {
+                  "number" : 334
+                },
+                "module" : "org.springframework.security.web",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "WebAsyncManagerIntegrationFilter.java",
+                "classname" : "org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter",
+                "line" : {
+                  "number" : 56
+                },
+                "module" : "org.springframework.security.web.context.request.async",
+                "function" : "doFilterInternal"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "OncePerRequestFilter.java",
+                "classname" : "org.springframework.web.filter.OncePerRequestFilter",
+                "line" : {
+                  "number" : 119
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "doFilter"
+              },
+              {
+                "exclude_from_grouping" : false,
+                "library_frame" : false,
+                "filename" : "FilterChainProxy.java",
+                "classname" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
+                "line" : {
+                  "number" : 334
+                },
+                "module" : "org.springframework.security.web",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "FilterChainProxy.java",
+                "classname" : "org.springframework.security.web.FilterChainProxy",
+                "line" : {
+                  "number" : 215
+                },
+                "module" : "org.springframework.security.web",
+                "function" : "doFilterInternal"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "FilterChainProxy.java",
+                "classname" : "org.springframework.security.web.FilterChainProxy",
+                "line" : {
+                  "number" : 178
+                },
+                "module" : "org.springframework.security.web",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "DelegatingFilterProxy.java",
+                "classname" : "org.springframework.web.filter.DelegatingFilterProxy",
+                "line" : {
+                  "number" : 358
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "invokeDelegate"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "DelegatingFilterProxy.java",
+                "classname" : "org.springframework.web.filter.DelegatingFilterProxy",
+                "line" : {
+                  "number" : 271
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "ApplicationFilterChain.java",
+                "classname" : "org.apache.catalina.core.ApplicationFilterChain",
+                "line" : {
+                  "number" : 193
+                },
+                "module" : "org.apache.catalina.core",
+                "function" : "internalDoFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "ApplicationFilterChain.java",
+                "classname" : "org.apache.catalina.core.ApplicationFilterChain",
+                "line" : {
+                  "number" : 166
+                },
+                "module" : "org.apache.catalina.core",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "RequestContextFilter.java",
+                "classname" : "org.springframework.web.filter.RequestContextFilter",
+                "line" : {
+                  "number" : 100
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "doFilterInternal"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "OncePerRequestFilter.java",
+                "classname" : "org.springframework.web.filter.OncePerRequestFilter",
+                "line" : {
+                  "number" : 119
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "ApplicationFilterChain.java",
+                "classname" : "org.apache.catalina.core.ApplicationFilterChain",
+                "line" : {
+                  "number" : 193
+                },
+                "module" : "org.apache.catalina.core",
+                "function" : "internalDoFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "ApplicationFilterChain.java",
+                "classname" : "org.apache.catalina.core.ApplicationFilterChain",
+                "line" : {
+                  "number" : 166
+                },
+                "module" : "org.apache.catalina.core",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "FormContentFilter.java",
+                "classname" : "org.springframework.web.filter.FormContentFilter",
+                "line" : {
+                  "number" : 93
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "doFilterInternal"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "OncePerRequestFilter.java",
+                "classname" : "org.springframework.web.filter.OncePerRequestFilter",
+                "line" : {
+                  "number" : 119
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "ApplicationFilterChain.java",
+                "classname" : "org.apache.catalina.core.ApplicationFilterChain",
+                "line" : {
+                  "number" : 193
+                },
+                "function" : "internalDoFilter",
+                "module" : "org.apache.catalina.core"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "ApplicationFilterChain.java",
+                "classname" : "org.apache.catalina.core.ApplicationFilterChain",
+                "line" : {
+                  "number" : 166
+                },
+                "module" : "org.apache.catalina.core",
+                "function" : "doFilter"
+              },
+              {
+                "exclude_from_grouping" : false,
+                "library_frame" : false,
+                "filename" : "CharacterEncodingFilter.java",
+                "classname" : "org.springframework.web.filter.CharacterEncodingFilter",
+                "line" : {
+                  "number" : 201
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "doFilterInternal"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "OncePerRequestFilter.java",
+                "classname" : "org.springframework.web.filter.OncePerRequestFilter",
+                "line" : {
+                  "number" : 119
+                },
+                "module" : "org.springframework.web.filter",
+                "function" : "doFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "ApplicationFilterChain.java",
+                "classname" : "org.apache.catalina.core.ApplicationFilterChain",
+                "line" : {
+                  "number" : 193
+                },
+                "module" : "org.apache.catalina.core",
+                "function" : "internalDoFilter"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "ApplicationFilterChain.java",
+                "classname" : "org.apache.catalina.core.ApplicationFilterChain",
+                "line" : {
+                  "number" : 166
+                },
+                "function" : "doFilter",
+                "module" : "org.apache.catalina.core"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "StandardWrapperValve.java",
+                "classname" : "org.apache.catalina.core.StandardWrapperValve",
+                "line" : {
+                  "number" : 202
+                },
+                "module" : "org.apache.catalina.core",
+                "function" : "invoke"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "StandardContextValve.java",
+                "classname" : "org.apache.catalina.core.StandardContextValve",
+                "line" : {
+                  "number" : 97
+                },
+                "module" : "org.apache.catalina.core",
+                "function" : "invoke"
+              },
+              {
+                "exclude_from_grouping" : false,
+                "library_frame" : false,
+                "filename" : "AuthenticatorBase.java",
+                "classname" : "org.apache.catalina.authenticator.AuthenticatorBase",
+                "line" : {
+                  "number" : 541
+                },
+                "module" : "org.apache.catalina.authenticator",
+                "function" : "invoke"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "StandardHostValve.java",
+                "classname" : "org.apache.catalina.core.StandardHostValve",
+                "line" : {
+                  "number" : 143
+                },
+                "function" : "invoke",
+                "module" : "org.apache.catalina.core"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "ErrorReportValve.java",
+                "classname" : "org.apache.catalina.valves.ErrorReportValve",
+                "line" : {
+                  "number" : 92
+                },
+                "module" : "org.apache.catalina.valves",
+                "function" : "invoke"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "StandardEngineValve.java",
+                "classname" : "org.apache.catalina.core.StandardEngineValve",
+                "line" : {
+                  "number" : 78
+                },
+                "module" : "org.apache.catalina.core",
+                "function" : "invoke"
+              },
+              {
+                "exclude_from_grouping" : false,
+                "library_frame" : false,
+                "filename" : "CoyoteAdapter.java",
+                "classname" : "org.apache.catalina.connector.CoyoteAdapter",
+                "line" : {
+                  "number" : 343
+                },
+                "module" : "org.apache.catalina.connector",
+                "function" : "service"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "Http11Processor.java",
+                "classname" : "org.apache.coyote.http11.Http11Processor",
+                "line" : {
+                  "number" : 374
+                },
+                "function" : "service",
+                "module" : "org.apache.coyote.http11"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "AbstractProcessorLight.java",
+                "classname" : "org.apache.coyote.AbstractProcessorLight",
+                "line" : {
+                  "number" : 65
+                },
+                "module" : "org.apache.coyote",
+                "function" : "process"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "AbstractProtocol.java",
+                "classname" : "org.apache.coyote.AbstractProtocol$ConnectionHandler",
+                "line" : {
+                  "number" : 868
+                },
+                "function" : "process",
+                "module" : "org.apache.coyote"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "NioEndpoint.java",
+                "classname" : "org.apache.tomcat.util.net.NioEndpoint$SocketProcessor",
+                "line" : {
+                  "number" : 1590
+                },
+                "module" : "org.apache.tomcat.util.net",
+                "function" : "doRun"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "SocketProcessorBase.java",
+                "classname" : "org.apache.tomcat.util.net.SocketProcessorBase",
+                "line" : {
+                  "number" : 49
+                },
+                "module" : "org.apache.tomcat.util.net",
+                "function" : "run"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "ThreadPoolExecutor.java",
+                "classname" : "java.util.concurrent.ThreadPoolExecutor",
+                "line" : {
+                  "number" : 1128
+                },
+                "module" : "java.util.concurrent",
+                "function" : "runWorker"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "ThreadPoolExecutor.java",
+                "classname" : "java.util.concurrent.ThreadPoolExecutor$Worker",
+                "line" : {
+                  "number" : 628
+                },
+                "function" : "run",
+                "module" : "java.util.concurrent"
+              },
+              {
+                "library_frame" : false,
+                "exclude_from_grouping" : false,
+                "filename" : "TaskThread.java",
+                "classname" : "org.apache.tomcat.util.threads.TaskThread$WrappingRunnable",
+                "line" : {
+                  "number" : 61
+                },
+                "module" : "org.apache.tomcat.util.threads",
+                "function" : "run"
+              }
+            ],
+            "name" : "JwtTokenFilter#doFilterInternal",
+            "id" : "94ed154f1ac198fd",
+            "type" : "app"
+          }
+        }
+      }
+    ]
+  }
+}

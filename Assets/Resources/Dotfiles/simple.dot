@@ -1,0 +1,3 @@
+   "com.test.A"                       -> "com.test.B";
+   "com.test.B"                       -> "com.test.C";
+   "com.test.A"                       -> "com.test.C";
